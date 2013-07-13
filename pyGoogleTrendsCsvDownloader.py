@@ -99,7 +99,7 @@ class pyGoogleTrendsCsvDownloader(object):
         params = urllib.urlencode(self.login_params)
         self.opener.open(self.url_authenticate, params)
         
-    def get_csv(self, throttle=False, **kwargs):
+    def get_csv(self, pathToStore, throttle=False, **kwargs):
         '''
         Download CSV reports
         '''
@@ -130,7 +130,7 @@ class pyGoogleTrendsCsvDownloader(object):
             data = r.read()
 
         csvfilename = 'trends_%s.csv' % '_'.join(['%s-%s' % (key, value) for (key, value) in kwargs.items()])
-        myFile = open(csvfilename, 'w')
+        myFile = open(pathToStore + "\\" + csvfilename, 'w')
         myFile.write(data)
         myFile.close()
 

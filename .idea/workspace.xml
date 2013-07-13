@@ -39,7 +39,7 @@
       <file leaf-file-name="pyGoogleTrendsCsvDownloader.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pyGoogleTrendsCsvDownloader.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="129" column="27" selection-start="5079" selection-end="5079" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
               </folding>
@@ -47,13 +47,34 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pyGoogleTrendsCsvToSQLite.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="pyGoogleTrendsCsvToSQLite.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pyGoogleTrendsCsvToSQLite.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="184" column="27" selection-start="6659" selection-end="6659" vertical-scroll-proportion="0.54774773">
+            <state line="248" column="0" selection-start="8768" selection-end="8768" vertical-scroll-proportion="0.0">
               <folding>
-                <element signature="e#0#22#0" expanded="true" />
+                <element signature="e#0#26#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="query_args_lst.txt" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/query_args_lst.txt">
+          <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="49" column="16" selection-start="1335" selection-end="1335" vertical-scroll-proportion="0.6234234">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -71,6 +92,15 @@
   <component name="GitLogSettings">
     <option name="myDateState">
       <MyDateState />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pyGoogleTrendsCsvDownloader.py" />
+        <option value="$PROJECT_DIR$/pyGoogleTrendsCsvToSQLite.py" />
+        <option value="$PROJECT_DIR$/README.md" />
+      </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
@@ -260,7 +290,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pyGoogleTrendsCsvDownloader.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="129" column="27" selection-start="5079" selection-end="5079" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="e#0#14#0" expanded="true" />
           </folding>
@@ -269,10 +299,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pyGoogleTrendsCsvToSQLite.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="184" column="27" selection-start="6659" selection-end="6659" vertical-scroll-proportion="0.54774773">
+        <state line="248" column="0" selection-start="8768" selection-end="8768" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="e#0#22#0" expanded="true" />
+            <element signature="e#0#26#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/query_args_lst.txt">
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="49" column="16" selection-start="1335" selection-end="1335" vertical-scroll-proportion="0.6234234">
+          <folding />
         </state>
       </provider>
     </entry>

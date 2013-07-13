@@ -22,10 +22,18 @@ cat,mouse,dog
 Django,Zend,Symfony
 ```
 
+There is a SQL backup file called `google_trends_db_schema.sql`.
+```
+BEGIN TRANSACTION;
+CREATE TABLE meta_data (group_id NUMERIC, launched TEXT, pk_id INTEGER PRIMARY KEY, query_string TEXT, url TEXT);
+...
+COMMIT;
+```
+
 ## How to run 
 Once your files are set-up, run: 
 
-`` $ python gTrends.py --conffile <conffile> --queryfile <queryfile> ``
+`` $ python gTrends.py  --conffile <conffile> --queryfile <queryfile> --csvsubfolder <csvsubfolder> ``
 
 This wille execute your query and return the results to `google_trends_db`. 
 The raw CSV files are written to the folder `/csv_results`. 
