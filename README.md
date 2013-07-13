@@ -1,7 +1,8 @@
 gTrends 
 =======
 
-## Overview 
+![Image](http://dl.dropboxusercontent.com/u/420874/permanent/example_search_results.png)
+
 This is a Python-based program for executing queries against Google Trends, collecting the resulting time-series data and writing it to a local SQLite database file. 
 The repository also includes some example R code for working with the resulting data. 
 
