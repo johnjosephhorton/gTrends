@@ -1,46 +1,38 @@
-johnjosephhorton
-================
+gTrends 
+=======
 
-Python Scraping(johnjosephhorton)
-
-1) There are several files.
-
-- 2 python files
-  pyGoogleTrendsCsvDownloader.py - google trends scraber python module
-  pyGoogleTrendsCsvToSQLite.py   - Parse csv file and export into sqlite db
-
-- 2 configuration files
-  config.txt         - read login and password to be used to connect to Google Trends
-    # config.txt
-    username:grytsenko.bamboo@gmail.com
-    password:XXXXXX
-
-  query_args_lst.txt -  read queries (a tuple of search terms that will be comma separated in the search box)
-    #query_args_lst.txt
-    python,php
-    cat,mouse,dog
-    Django,Zend,Symfony
-- 1 SQLite db file
-  google_trends_db - sqlite db file
-
-- When this scraper running, CSV files are generated in the same folder path.
+# Overview 
+This is a Python-based program for executing queries against Google Trends, collecting the resulting time-series data and writing it to a local SQLite database file. 
+The repository also includes some example R code for working with the resulting data. 
 
 
-2) How to run this scraper.
+## How it works 
 
-- Run on console.
+## Configuration 
 
-  >> pyGoogleTrendsCsvToSQLite.py
-  >> pyGoogleTrendsCsvToSQLite.py -c <conffile> -q <queryfile>
-  >> pyGoogleTrendsCsvToSQLite.py --conffile <conffile> --queryfile <queryfile>
+There is a file `config.txt` for your gmail username and password: 
 
-  for ex)
-  >> pyGoogleTrendsCsvToSQLite.py
-  >> pyGoogleTrendsCsvToSQLite.py -c config.txt -q query_args_lst.txt
-  >> pyGoogleTrendsCsvToSQLite.py --conffile config.txt --queryfile query_args_lst.txt
+``
+username:<scraper_guy>@gmail.com
+password:XXXXXX
+``
 
+And a file containing your query terms, in `query_ars_lst.txt`: 
+``
+python,php
+cat,mouse,dog
+Django,Zend,Symfony
+``
 
+## How to run 
+Once your files are set-up, run: 
+
+`` $ python pyGoogleTrendsCsvToSQLite.py --conffile <conffile> --queryfile <queryfile> ``
+
+This wille execute your query and return the results to `google_trends_db`. 
+The raw CSV files are written to the folder `/csv_results`. 
   Note: You can omit arguments and in this case default values are used.
-        <conffile> - config.txt
-        <queryfile> - query_args_lst.txt
+  
+## Data Structures in the SQLite database 
 
+TBD.  
