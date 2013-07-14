@@ -38,10 +38,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pyGoogleTrendsCsvDownloader.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="pyGoogleTrendsCsvDownloader.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pyGoogleTrendsCsvDownloader.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="133" column="9" selection-start="5210" selection-end="5210" vertical-scroll-proportion="0.6493289">
+            <state line="133" column="8" selection-start="5209" selection-end="5209" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
               </folding>
@@ -49,10 +49,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pyGoogleTrendsCsvToSQLite.py" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="pyGoogleTrendsCsvToSQLite.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pyGoogleTrendsCsvToSQLite.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="218" column="4" selection-start="7937" selection-end="7937" vertical-scroll-proportion="-11.44">
+            <state line="229" column="8" selection-start="8389" selection-end="8389" vertical-scroll-proportion="0.56742555">
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -100,8 +100,8 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/pyGoogleTrendsCsvToSQLite.py" />
         <option value="$PROJECT_DIR$/pyGoogleTrendsCsvDownloader.py" />
+        <option value="$PROJECT_DIR$/pyGoogleTrendsCsvToSQLite.py" />
       </list>
     </option>
   </component>
@@ -382,20 +382,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pyGoogleTrendsCsvToSQLite.py">
+    <entry file="file://$PROJECT_DIR$/pyGoogleTrendsCsvDownloader.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="218" column="4" selection-start="7937" selection-end="7937" vertical-scroll-proportion="-11.44">
+        <state line="133" column="8" selection-start="5209" selection-end="5209" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#0#14#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pyGoogleTrendsCsvDownloader.py">
+    <entry file="file://$PROJECT_DIR$/pyGoogleTrendsCsvToSQLite.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="133" column="9" selection-start="5210" selection-end="5210" vertical-scroll-proportion="0.6493289">
+        <state line="229" column="8" selection-start="8389" selection-end="8389" vertical-scroll-proportion="0.56742555">
           <folding>
-            <element signature="e#0#14#0" expanded="true" />
+            <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
