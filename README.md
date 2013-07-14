@@ -9,15 +9,40 @@ The repository also includes some example R code for working with the resulting 
 
 ## Dependencies
 
-Python2.6+
+* [Python](http://python.org/download/) 2.6 or 2.7;
 
 ## Installation for users
 
 Install python modules such as lxml3.0.1 using pip.
 
 ```
-pip install -r requirements.txt
+easy_install virtualenv
 ```
+
+```
+easy_install pip
+```
+
+```
+cd /tmp  # sample directory
+```
+
+```
+mkvirtualenv <virtual env name>
+```
+
+```
+cd /tmp/<virtual env name>
+```
+
+```
+source bin/activate
+```
+
+```
+pip install -r <path to source folder>/requirements.txt
+```
+
 
 ## Configuration 
 
