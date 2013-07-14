@@ -10,6 +10,7 @@ import gzip
 import random
 import time
 import sys
+import os
 
 from cookielib import Cookie, CookieJar
 from StringIO import StringIO
@@ -130,7 +131,7 @@ class pyGoogleTrendsCsvDownloader(object):
             data = r.read()
 
         csvfilename = 'trends_%s.csv' % '_'.join(['%s-%s' % (key, value) for (key, value) in kwargs.items()])
-        myFile = open(pathToStore + "\\" + csvfilename, 'w')
+        myFile = open(os.path.join(pathToStore,csvfilename), 'w')
         myFile.write(data)
         myFile.close()
 
