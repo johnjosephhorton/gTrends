@@ -41,7 +41,7 @@ class pyGoogleTrendsCsvDownloader(object):
         self.service = "trendspro"
         self.url_service = "http://www.google.com/trends/"
         self.url_download = self.url_service + "trendsReport?"
-        
+
         self.login_params = {}
         # These headers are necessary, otherwise Google will flag the request at your account level
         self.headers = [('User-Agent', 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:12.0) Gecko/20100101 Firefox/12.0'),
@@ -53,6 +53,9 @@ class pyGoogleTrendsCsvDownloader(object):
         self.url_authenticate = 'https://accounts.google.com/accounts/ServiceLoginAuth'
         self.header_dictionary = {}
         
+        self.url_CookieCheck = 'https://accounts.google.com/CheckCookie?chtml=LoginDoneHtml'
+        self.url_PrefCookie = 'http://www.google.com'
+
         self._authenticate(username, password)
         
     def _authenticate(self, username, password):
@@ -116,11 +119,17 @@ class pyGoogleTrendsCsvDownloader(object):
         params.update(kwargs)
         params = urllib.urlencode(params)
         url_str = self.url_download + params
+
+        self.opener.open(self.url_CookieCheck)
+        self.opener.open(self.url_PrefCookie)
+
         r = self.opener.open(self.url_download + params)
         
         # Make sure everything is working ;)
         if not r.info().has_key('Content-Disposition'):
             print "You've exceeded your quota. Continue tomorrow..."
+            print "Google Server response >>>"
+            print r.info()
             sys.exit(0)
             
         if r.info().get('Content-Encoding') == 'gzip':
