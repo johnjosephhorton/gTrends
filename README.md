@@ -6,6 +6,19 @@ The repository also includes some example R code for working with the resulting 
 
 ![Image](http://dl.dropboxusercontent.com/u/420874/permanent/example_search_results.png)
 
+
+## Dependencies
+
+Python2.6+
+
+## Installation for users
+
+Install python modules such as lxml3.0.1 using pip.
+
+```
+pip install -r requirements.txt
+```
+
 ## Configuration 
 
 There is a file `config.txt` for your gmail username and password: 
