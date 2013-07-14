@@ -9,7 +9,7 @@ The repository also includes some example R code for working with the resulting 
 
 ## Dependencies
 
-* [Python](http://python.org/download/) 2.6 or 2.7;
+* [Python](http://python.org/download/) 2.6 or 2.7
 
 ## Installation for users
 
