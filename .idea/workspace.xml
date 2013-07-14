@@ -5,8 +5,8 @@
     <ignored path="Google_Trends_Scraper_new2.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="c3fa0362-7570-48be-959d-261b1ec4c1e0" time="1373735609800" ignored="false" />
-    <file path="/pyGoogleTrendsCsvDownloader.py" changelist="c3fa0362-7570-48be-959d-261b1ec4c1e0" time="1373762169072" ignored="false" />
-    <file path="/pyGoogleTrendsCsvToSQLite.py" changelist="c3fa0362-7570-48be-959d-261b1ec4c1e0" time="1373762210125" ignored="false" />
+    <file path="/pyGoogleTrendsCsvDownloader.py" changelist="c3fa0362-7570-48be-959d-261b1ec4c1e0" time="1373763810955" ignored="false" />
+    <file path="/pyGoogleTrendsCsvToSQLite.py" changelist="c3fa0362-7570-48be-959d-261b1ec4c1e0" time="1373763792960" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,10 +38,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pyGoogleTrendsCsvDownloader.py" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="pyGoogleTrendsCsvDownloader.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pyGoogleTrendsCsvDownloader.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="138" column="0" selection-start="5376" selection-end="5376" vertical-scroll-proportion="0.0">
+            <state line="133" column="9" selection-start="5210" selection-end="5210" vertical-scroll-proportion="0.65108514">
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
               </folding>
@@ -49,10 +49,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pyGoogleTrendsCsvToSQLite.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="pyGoogleTrendsCsvToSQLite.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pyGoogleTrendsCsvToSQLite.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="244" column="29" selection-start="8782" selection-end="8782" vertical-scroll-proportion="0.70951587">
+            <state line="231" column="0" selection-start="8520" selection-end="8520" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -100,8 +100,8 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/pyGoogleTrendsCsvDownloader.py" />
         <option value="$PROJECT_DIR$/pyGoogleTrendsCsvToSQLite.py" />
+        <option value="$PROJECT_DIR$/pyGoogleTrendsCsvDownloader.py" />
       </list>
     </option>
   </component>
@@ -245,12 +245,12 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2641292" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24969324" sideWeight="0.73587084" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24969324" sideWeight="0.43713957" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24969324" sideWeight="0.29757786" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2641292" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298731" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -320,16 +320,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/config.txt">
-      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="50" selection-end="50" vertical-scroll-proportion="-1.52">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/query_args_lst.txt">
       <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
         <state />
@@ -347,20 +337,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pyGoogleTrendsCsvDownloader.py">
+    <entry file="file://$PROJECT_DIR$/config.txt">
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="138" column="0" selection-start="5376" selection-end="5376" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-          </folding>
+        <state line="2" column="0" selection-start="50" selection-end="50" vertical-scroll-proportion="-1.52">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pyGoogleTrendsCsvToSQLite.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="244" column="29" selection-start="8782" selection-end="8782" vertical-scroll-proportion="0.70951587">
+        <state line="231" column="0" selection-start="8520" selection-end="8520" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyGoogleTrendsCsvDownloader.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="133" column="9" selection-start="5210" selection-end="5210" vertical-scroll-proportion="0.65108514">
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
           </folding>
         </state>
       </provider>
