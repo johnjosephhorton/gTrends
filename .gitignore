@@ -43,3 +43,6 @@ htmlcov/
 include/
 lib/
 /bootstrap.py
+
+# csv archive files
+csv_results/

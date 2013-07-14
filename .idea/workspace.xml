@@ -52,7 +52,7 @@
       <file leaf-file-name="pyGoogleTrendsCsvToSQLite.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pyGoogleTrendsCsvToSQLite.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="184" column="39" selection-start="6798" selection-end="6798" vertical-scroll-proportion="0.73204905">
+            <state line="176" column="40" selection-start="6446" selection-end="6446" vertical-scroll-proportion="0.4658494">
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -273,7 +273,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1692" height="1026" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -281,7 +281,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24969324" sideWeight="0.43598616" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2675894" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2675894" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24969324" sideWeight="0.29642445" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2675894" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -393,7 +393,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pyGoogleTrendsCsvToSQLite.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="184" column="39" selection-start="6798" selection-end="6798" vertical-scroll-proportion="0.73204905">
+        <state line="176" column="40" selection-start="6446" selection-end="6446" vertical-scroll-proportion="0.4658494">
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
