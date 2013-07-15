@@ -216,7 +216,7 @@ def main(argv):
     # 4 - Grab google trends results into csv file
     #parseCsvAndExportToSQLite(1,
     #                          "romney,obama",
-    #                          pathToStore+"\\"+"trends_q-romney,obama.csv",
+    #                          os.path.join(pathToStore,"trends_q-romney,obama.csv"),
     #                          "http://www.google.com/trends/explore?q=romney%2Cphp#q=obama&cmpt=q",
     #                          dbfile)
     #sys.exit()
@@ -227,7 +227,7 @@ def main(argv):
     for query in queries_lst:
         rtn = r.get_csv(pathToStore, q=query)
         # 5 - Parse csv file and export into sqlite db
-        parseCsvAndExportToSQLite(query_id, query, pathToStore+"\\"+rtn['csvfilename'], rtn['url'], dbfile)
+        parseCsvAndExportToSQLite(query_id, query, os.path.join(pathToStore,rtn['csvfilename']), rtn['url'], dbfile)
         query_id += 1
 
 if __name__ == "__main__":

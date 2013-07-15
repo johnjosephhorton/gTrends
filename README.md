@@ -6,6 +6,44 @@ The repository also includes some example R code for working with the resulting 
 
 ![Image](http://dl.dropboxusercontent.com/u/420874/permanent/example_search_results.png)
 
+
+## Dependencies
+
+* [Python](http://python.org/download/) 2.6 or 2.7
+
+## Installation for users
+
+Install python modules such as lxml3.0.1 using pip.
+
+```
+easy_install virtualenv
+```
+
+```
+easy_install pip
+```
+
+```
+cd /tmp  # sample directory
+```
+
+```
+mkvirtualenv <virtual env name>
+```
+
+```
+cd /tmp/<virtual env name>
+```
+
+```
+source bin/activate
+```
+
+```
+pip install -r <path to source folder>/requirements.txt
+```
+
+
 ## Configuration 
 
 There is a file `config.txt` for your gmail username and password: 
