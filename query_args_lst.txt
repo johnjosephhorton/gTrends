@@ -1,2 +1,4 @@
 romney,obama
 cats,dogs
+ice cream, frozen yogurt
+ice cream, hot chocolate 
