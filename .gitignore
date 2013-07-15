@@ -28,6 +28,7 @@ dist/
 eggs/
 parts/
 MANIFEST
+config.txt
 
 # Project files for idea, eclipse, and netbeans
 nbproject/
