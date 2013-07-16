@@ -4,6 +4,16 @@ import sqlite3 as lite
 import datetime
 from pyGoogleTrendsCsvDownloader import pyGoogleTrendsCsvDownloader
 
+keyboard_config = True 
+
+def getManualConfigInfo(): 
+    '''
+    Reads in username and password from the command line
+    '''
+    username = raw_input('Gmail username:')
+    password = raw_input('Gmail password:') 
+    return {'username':username, 'password':password}
+    
 def read_ConfInfo(config_file):
     '''
     Read login and password to be used to connect to Google Trends
@@ -188,14 +198,16 @@ def main(argv):
     print 'queryfile file is "' + queries_file + '"'
 
     # 1 - Read Config file
-    username = ""
-    password = ""
-    rtn_confinfo = read_ConfInfo(config_file)
+    if keyboard_config: 
+        rtn_confinfo = getManualConfigInfo()
+    else: 
+        rtn_confinfo = read_ConfInfo(config_file)
+        
     username = rtn_confinfo['username']
     password = rtn_confinfo['password']
+    
     print "\t", "username : " + username
-    #print "password : " + password
-
+  
     # 2 - Read queries list
     queries_lst = read_QueriesInfo(queries_file)
     print "\t",queries_lst
